@@ -18,8 +18,7 @@ const AddPostForm = () => {
                     content
                 })
             )
-            setTitle('')
-            setContent('')
+
         }
     }
   return (

@@ -1,12 +1,12 @@
-import Posts from './features/posts/Posts';
-import AddPostForm from './features/posts/AddPostForm';
+import Navbar from './components/Navbar';
+import CartContainer from './components/CartContainer';
+
 
 function App() {
   return (
     <main className='App' >
-      <AddPostForm/>
-      <Posts/>
-      
+      <Navbar/>
+      <CartContainer/>
     </main>
   );
 }
